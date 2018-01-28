@@ -60,3 +60,5 @@ tasks.withType(ScalaCompile) {
         jvmArgs = ['-XX:MaxPermSize=512m']
     }
 }
+
+defaultTasks "clean", "build"
